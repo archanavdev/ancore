@@ -27,7 +27,7 @@
     {
       "id": "1240104",
       "issue": "https://github.com/ancore-org/ancore/issues/1090",
-      "justification": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion. Transitive dev/build dependency; not exposed to attacker-controlled input.",
+      "justification": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion. Transitive dev/build dependency; not exposed to attacker-controlled input. Follow-up: revisit when advisory metadata is corrected for 1.x/2.x.",
       "expires": "2027-04-30T00:00:00.000Z"
     },
     {

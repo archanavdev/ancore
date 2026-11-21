@@ -6,6 +6,8 @@
 > **Freighter extension reference:** v5.42.x (`master`)  
 > **Freighter mobile reference:** v1.19.x (`main`)  
 > **Ancore reference:** `apps/extension-wallet`, `apps/mobile-wallet`, `apps/mobile-app`, `packages/core-sdk`
+>
+> <!-- #976: detail-table drift pass pending; cross-link roadmap rows to issue numbers. -->
 
 ---
 

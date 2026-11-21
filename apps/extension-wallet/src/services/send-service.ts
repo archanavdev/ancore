@@ -285,6 +285,8 @@ export function createProductionSendService(options: ProductionSendServiceOption
      * tell the user why the answer is late.
      */
     async fetchTransactionStatus(txId: string): Promise<TxStatus> {
+      // TODO(#1187): derive Horizon/RPC status endpoint without string-stripping.
+      // TODO(#1187): handle plain Soroban RPC hosts that lack /soroban/rpc suffix.
       const url = `${stellarClient.getRpcUrls()[0]?.replace('/soroban/rpc', '')}/transactions/${txId}`;
 
       let response: Response;

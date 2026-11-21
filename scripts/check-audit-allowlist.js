@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// NOTE(#1088): dummy tracking touch for audit allowlist PR workflow.
+// Keep allowlist entries reviewed with issue + expiry.
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
